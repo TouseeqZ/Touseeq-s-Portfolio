@@ -39,7 +39,7 @@ const HeroSection =()=>{
       <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
       Im a Software Engineer based in Lahore, Pakistan, dedicated to crafting high-quality
                software solutions that enhance efficiency and enrich lives. Lets collaborate to create
-                something exceptional!      </p>
+                something exceptional! </p>
       <div>
         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
           <Link href={'https://pk.linkedin.com'}>  Hire Me</Link>
