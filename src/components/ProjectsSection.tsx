@@ -3,7 +3,6 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-import { strict } from "assert";
 
 const projectsData = [
   {
@@ -19,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "Potography Portfolio Website",
     description: "Project 2 description",
-    image: "2.png",
+    image: "/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -81,7 +80,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section ref={ref}>
+    <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
