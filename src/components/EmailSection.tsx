@@ -2,6 +2,7 @@
 import React, { useState, FormEvent } from "react";
 import GithubIcon from "/public/github-icon.svg";
 import LinkedinIcon from "/public/linkedin-icon.svg";
+import whatsapp from "/public/whatsapp.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -55,13 +56,16 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 relative">
           <Link href="https://github.com">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          <Link href={`https://wa.me/${+923237944663}`}>
+          <Image src={whatsapp} alt="What's app icon" />
+    </Link>
         </div>
       </div>
       <div>
